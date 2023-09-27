@@ -2,8 +2,8 @@
 localize single object: trained only on birds images
 
 ## Model Architecture
-Base Model: Pretrained InceptionV3 for feature extraction
-Head Model: four layers of fully connected layers for bounding box regression
+**Base Model**: Pretrained InceptionV3 for feature extraction <br>
+**Head Model**: four layers of fully connected layers for bounding box regression
 
 Only head model is trained while the base model weights are frozen.
 
